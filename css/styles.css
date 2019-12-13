@@ -5,10 +5,10 @@
     height: 100vh;
     
 }
-/* .nav{
+.nav{
     color: brown;
 
-} */
+}
 nav ul li{
     display: inline;
     padding-left: 30px;
