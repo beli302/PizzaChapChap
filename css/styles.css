@@ -20,7 +20,10 @@ nav ul{
     border: 2px 2px transparent;
     box-shadow: 3px 3px 5px white;
 }
-p{
+h2{
     text-align: center;
     color: white;
+    padding: 10px;
+    font-size: 40px;
+    padding-top: 50px;
 }
