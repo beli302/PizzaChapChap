@@ -7,6 +7,8 @@
 }
 .nav{
     color: brown;
+    position: fixed;
+    width: 100%;
 
 }
 nav ul li{
