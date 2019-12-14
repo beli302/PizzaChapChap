@@ -27,12 +27,12 @@ h2{
     font-size: 40px;
     padding-top: 50px;
 }
-#about{
-    text-align: center;
-    font-size: 30px;
-    background-color:lightsalmon;
-}
+
 h3{
     font-size: 35px;
     color: white; 
+}
+p{
+    font-size: 30px;
+    color: brown;
 }
