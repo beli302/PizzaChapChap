@@ -38,3 +38,10 @@ p{
     font-size: 30px;
     color: brown;
 }
+#menu{
+    background-image: url("https://bit.ly/2PJEaki");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* flex-wrap: wrap; */
+}

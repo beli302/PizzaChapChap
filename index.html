@@ -41,13 +41,61 @@
 </div>
 <div id="menu">
     <h3>Menu</h3>
-    <img src="https://bit.ly/2LWFqPR" width="300px">
+    <img src="https://bit.ly/34lPsjZ" width="300px" height="300px"> 
     <p>Regular<br> Ksh.300</p>
-    <img src="https://bit.ly/36BHuVy" width="300px">
+    <img src="https://bit.ly/36BHuVy" width="300px" height="300px">
     <p>Medium <br>Ksh.600</p>
-    <img src="https://bit.ly/2PleLOL" width="300px">
+    <img src="https://bit.ly/2PleLOL" width="300px" height="300px">
     <p>Large <br>Ksh.1200</p>
 </div>
-    
+<div id="order">
+    <h4>Order for your pizza</h4>
+<form class="col-sm-6 offset-sm-3 text-center">
+    <label>Choose your Flavour:</label>
+    <select class="custom-select custom-select-md mb-3 flavour" required>
+        <option value="vegtikka">Veg Tikka</option>
+        <option value="chickentikka">Chicken Tikka</option>
+        <option value="periperi">Peri-Peri Chicken</option>
+        <option value="bbq">BBQ Steak</option>
+        <option value="boerewors">Boerewors</option>
+        <option value="hawaiian">Hawaiian</option>
+        <option value="mushroom">Chicken and Mushroom</option>
+        <option value="regina">Regina Pizza</option>
+    </select>
+    <label>Choose your preferred Size:</label>
+    <select class="custom-select custom-select-md mb-3" id="size" required>
+        <option value="regular">Regular</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+    </select>
+    <label for="crust">Choose your favorite Crust</label>
+    <select class="custom-select custom-select-md mb-3" id="crust" required>
+        <option value="thin">Thin Crust @ Ksh. 100</option>
+        <option value="thick">Thick Crust @ Ksh. 150</option>
+        <option value="flatbread">FlatBread Crust @ sh. 180</option>
+        <option value="custom">Custom Crust @ sh. 280</option>
+    </select>
+    <label>Choose Your favourite Toppings</label>
+    <select class="custom-select custom-select-md mb-3" id="toppings" required>
+        <option value="tomato">Tomato @ sh. 80</option>
+        <option value="onions">Onions @ sh. 80</option>
+        <option value="mushroom">Mushroom @ sh. 80</option>
+        <option value="greenpepper">Green Pepper @ sh. 80</option>
+        <option value=""></option>
+        <option value="olives">Olives @ sh. 120</option>
+        <option value="pineapple">Pineapple @ sh. 120</option>
+        <option value="sweetcorn">Sweet Corn @ sh. 120</option>
+        <option value="macon">Macon @ sh. 120</option>
+        <option value="mince">Mince @ sh. 120</option>
+        <option value=""></option>
+        <option value="beef">Beef Peperoni @ sh. 170</option>
+        <option value="chicken">Periperi Chicken @ sh. 170</option>
+    </select>
+    <label for="number">Number of Pizza's</label>
+    <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+
+
+</form>
+</div>
 </body>
 </html>
