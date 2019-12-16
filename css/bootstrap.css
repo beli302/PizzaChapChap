@@ -87,10 +87,16 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-/* h3 {
+.btn:hover{
+  justify-content: center;
+  background-color: palevioletred;
+  /* border-radius: 80%; */
+  border: 1px solid black;
+}
+h4{
   text-align: center;
 
-} */
+}
 
 abbr[title],
 abbr[data-original-title] {
