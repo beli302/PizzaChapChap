@@ -6,9 +6,11 @@
     
 }
 .nav{
-    color: brown;
+    color:palegreen;
     position: fixed;
     width: 100%;
+    border: 2px 2px transparent;
+    box-shadow: 3px 3px 5px black;
 
 }
 nav ul li{
@@ -18,10 +20,7 @@ nav ul li{
 nav ul{
     text-align: center;
 }
-.nav{
-    border: 2px 2px transparent;
-    box-shadow: 3px 3px 5px black;
-}
+
 h2{
     text-align: center;
     color: white;
@@ -54,5 +53,8 @@ h4{
     font-size: 30px;
 }
 #contact{
+    text-align: center;
+}
+button{
     text-align: center;
 }

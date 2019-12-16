@@ -16,7 +16,7 @@ By Belinda Okumu
 ## Contributing
 Pull requests are welcome.
 ## Project link
-url()
+url(https://beli302.github.io/PizzaChapChap/)
 ## Contacts
 * Tel: +254706313301
 * Email: belindashirkiz@gmail.com
