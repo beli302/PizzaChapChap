@@ -43,6 +43,7 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    text-align: center;
     /* flex-wrap: wrap; */
 }
 #order{
@@ -51,4 +52,7 @@ p{
 h4{
     color: white;
     font-size: 30px;
+}
+#contact{
+    text-align: center;
 }
