@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pizza Chap Chap</title>
-    <link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Pizza Chap Chap</title>
+        <link
+            href="https://fonts.googleapis.com/css?family=Solway&display=swap"
+            rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="css/styles.css" rel="stylesheet" type="text/css">
         <link
             href="https://fonts.googleapis.com/css?family=Solway&display=swap"
@@ -15,109 +17,141 @@
             src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous"></script>
-        
-</head>
-<body>
-    <script src="js/scripts.js"></script>
-<div id="home">
-    <div class="nav">
-            <h1>PizzaChapChap</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#menu">Menu</a></li>
-                    <li><a href="#orders">Orders</a></li>
-                    <li><a href="#contacts">Contacts</a></li>
-                </ul>
-            </nav>
-    </div>
-    <br><br><br><br><br><br><br><h2><strong>Welcome To Pizza Chap Chap <br> Pizza so yammy!</strong></h2>
-</div>
-<div id="about">
-    <h3><strong>About us</strong></h3>
-    <p>We are located at Langata Road and offer the best to our customers...<br>Order your pizza and we wil deliver it to your location.</p>
-    <img src="https://bit.ly/2srVB0w" width="500px">
-</div>
-<div id="menu">
-    <h3>Menu</h3>
-    <img src="https://bit.ly/35swDwQ" width="300px" height="250px"> 
-    <p>Regular<br> Ksh.300</p>
-    <img src="https://bit.ly/36BHuVy" width="300px" height="300px">
-    <p>Medium <br>Ksh.600</p>
-    <img src="https://bit.ly/2PleLOL" width="300px" height="300px">
-    <p>Large <br>Ksh.1200</p>
-</div>
-<div id="order">
-    <h4>Order for your pizza</h4>
-<form class="col-sm-6 offset-sm-3 text-center">
-    <div id="flavour">
-    <label for="flavour">Choose your Flavour:</label>
-    <select class="custom-select custom-select-md mb-3 flavour" id="pizzaFlavour" required>
-        <option value="vegtikka">Veg Tikka</option>
-        <option value="chickentikka">Chicken Tikka</option>
-        <option value="periperi">Peri-Peri Chicken</option>
-        <option value="macaroni">Macaroni And Cheese</option>
-        <option value="butternut">Butternut Squash and Crispy Sage</option>
-        <option value="hawaiian">Hawaiian</option>
-        <option value="mushroom">Chicken and Mushroom</option>
-        <option value="turkish">Turkish Ground-Lamb Pizza</option>
-    </select>
-</div>
-<div id="size">
-    <label for="size">Choose your preferred Size:</label>
-    <select class="custom-select custom-select-md mb-3" id="pizzaSize" required>
-        <option label="regular" value="300"></option>
-        <option label="medium" value="600"></option>
-        <option label="large" value="1200"></option>
-    </select>
-</div>
-<div id="crust">
-    <label for="crust">Choose your favorite Crust</label>
-    <select class="custom-select custom-select-md mb-3" id="pizzaCrust" required>
-        <option label="thin-100" value="100"></option>
-        <option label="thick" value="150"></option>
-        <option label="flatbread"value="180"></option>
-        <option label="custom" value="280"></option>
-    </select>
-</div>
-<div id="toppings">
-    <label for="toppings">Choose Your favourite Toppings</label>
-    <select class="custom-select custom-select-md mb-3" id="pizzaToppings" required>
-        <option label="tomato" value="80" ></option>
-        <option label="onions" value="80"></option>
-        <option label="mushroom" value="80"></option>
-        <option label="greenpepper" value="80"></option>
-        <option label=""></option>
-        <option label="olives" value="120"></option>
-        <option label="pineapple" value="120"></option>
-        <option label="sweetcorn" value="120"></option>
-        <option label="macon" value="120"></option>
-        <option label="mince" value="120"></option>
-        <option label=""></option>
-        <option label="beef" value="170"></option>
-        <option label="chicken" value="170"></option>
-    </select>
-</div>
-<div id="number">
-    <label for="number">Number of Pizza's</label>
-    <input id="number" type="number" value="1">
-</div>
 
-</form>
-<div>
-            <button type="delivery" id="btn" onclick="order()" label="">Delivery</button>
-</div>
-    <div>
-    <button class="btn click">Pick Up</button>
-</div>
-<footer>
-        <div id="contact" class="contacts">
-                <p>You can contact me through;</p>
-                <p>Email:belindashirkiz2@gmail.com</p>
-                <p>Contacts:+254706313301</p>
-
+    </head>
+    <body>
+        <script src="js/scripts.js"></script>
+        <div id="home">
+            <div class="nav">
+                <h1>PizzaChapChap</h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#menu">Menu</a>
+                        </li>
+                        <li>
+                            <a href="#orders">Orders</a>
+                        </li>
+                        <li>
+                            <a href="#contacts">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-</footer>
-</body>
-</html>
+            <br><br><br><br><br><br><br>
+            <h2>
+                <strong>Welcome To Pizza Chap Chap
+                    <br>
+                    Pizza, So yammy!</strong>
+            </h2>
+        </div>
+        <div id="about">
+            <h3>
+                <strong>About us</strong>
+            </h3>
+            <p>We are located at Langata Road and offer the best to our customers...<br>Order your pizza and we wil deliver it to your location.</p>
+            <img src="https://bit.ly/2srVB0w" width="500px">
+        </div>
+        <div id="menu">
+            <h3><srong>Menu</srong></h3>
+            <img src="https://bit.ly/35swDwQ" width="300px" height="250px">
+            <p>Regular<br>
+                Ksh.300</p>
+            <img src="https://bit.ly/36BHuVy" width="300px" height="300px">
+            <p>Medium
+                <br>Ksh.600</p>
+            <img src="https://bit.ly/2PleLOL" width="300px" height="300px">
+            <p>Large
+                <br>Ksh.1200</p>
+        </div>
+        <div id="order">
+            <h4><strong>Order for your pizza</strong></h4>
+            <form class="col-sm-6 offset-sm-3 text-center">
+                <div id="flavour">
+                    <label for="flavour">Choose your Flavour:</label>
+                    <select
+                        class="custom-select custom-select-md mb-3 flavour"
+                        id="pizzaFlavour"
+                        required="required">
+                        <option value="vegtikka">Veg Tikka</option>
+                        <option value="chickentikka">Chicken Tikka</option>
+                        <option value="periperi">Peri-Peri Chicken</option>
+                        <option value="macaroni">Macaroni And Cheese</option>
+                        <option value="butternut">Butternut Squash and Crispy Sage</option>
+                        <option value="hawaiian">Hawaiian</option>
+                        <option value="mushroom">Chicken and Mushroom</option>
+                        <option value="turkish">Turkish Ground-Lamb Pizza</option>
+                    </select>
+                </div>
+                <div id="size">
+                    <label for="size">Choose your preferred Size:</label>
+                    <select
+                        class="custom-select custom-select-md mb-3"
+                        id="pizzaSize"
+                        required="required">
+                        <option label="regular" value="300"></option>
+                        <option label="medium" value="600"></option>
+                        <option label="large" value="1200"></option>
+                    </select>
+                </div>
+                <div id="crust">
+                    <label for="crust">Choose your favorite Crust</label>
+                    <select
+                        class="custom-select custom-select-md mb-3"
+                        id="pizzaCrust"
+                        required="required">
+                        <option label="thin-100" value="100"></option>
+                        <option label="thick" value="150"></option>
+                        <option label="flatbread" value="180"></option>
+                        <option label="custom" value="280"></option>
+                    </select>
+                </div>
+                <div id="toppings">
+                    <label for="toppings">Choose Your favourite Toppings</label>
+                    <select
+                        class="custom-select custom-select-md mb-3"
+                        id="pizzaToppings"
+                        required="required">
+                        <option label="tomato" value="80"></option>
+                        <option label="onions" value="80"></option>
+                        <option label="mushroom" value="80"></option>
+                        <option label="greenpepper" value="80"></option>
+                        <option label=""></option>
+                        <option label="olives" value="120"></option>
+                        <option label="pineapple" value="120"></option>
+                        <option label="sweetcorn" value="120"></option>
+                        <option label="macon" value="120"></option>
+                        <option label="mince" value="120"></option>
+                        <option label=""></option>
+                        <option label="beef" value="170"></option>
+                        <option label="chicken" value="170"></option>
+                    </select>
+                </div>
+                <div id="number">
+                    <label for="number">Number of Pizza's</label>
+                    <input id="number" type="number" value="1">
+                </div>
+
+            </form>
+            <div>
+                <button type="delivery" id="btn" onclick="order()" label="">Delivery</button>
+            </div>
+            <div>
+                <button class="btn click">Pick Up</button>
+            </div>
+            <footer>
+                <div id="contact" class="contacts">
+                    <p>You can contact me through;</p>
+                    <p>Email:belindashirkiz2@gmail.com</p>
+                    <p>Contacts:+254706313301</p>
+
+                </div>
+            </footer>
+        </body>
+    </html>
