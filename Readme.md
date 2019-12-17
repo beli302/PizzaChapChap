@@ -1,4 +1,6 @@
 # Pizza Chap Chap
+## Code Grade
+[![codebeat badge](https://codebeat.co/badges/1bcdf599-64e4-4683-9633-10f8f27f3721)](https://codebeat.co/projects/github-com-beli302-pizzachapchap-master)
 
 ## Description
 A pizza app where customers can make orders of pizzas
